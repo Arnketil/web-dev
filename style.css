@@ -1,0 +1,147 @@
+@font-face {
+  font-family: 'cac_champagneregular';
+  src: url('fonts/cac_champagne-webfont.eot');
+  src: url('fonts/cac_champagne-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/cac_champagne-webfont.woff2') format('woff2'), url('fonts/cac_champagne-webfont.woff') format('woff'), url('fonts/cac_champagne-webfont.ttf') format('truetype'), url('fonts/cac_champagne-webfont.svg#cac_champagneregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Amatic SC', Verdana, 'Time New Roman', Arial, Georgia, sans-serif, cursive;
+  font-weight: 700;
+  color: black;
+  background-image: url('images/background.jpg');
+  background-attachment: fixed;
+}
+
+h2 {
+  font-size: 2.5em;
+}
+
+h1 {
+  font-size: 3.5em;
+  text-shadow: .15em .15em .4em grey;
+}
+
+.nom {
+  color: #660066;
+  position: relative;
+  top: -2em;
+}
+
+.photo_master {
+  line-height: 2em;
+  position: relative;
+  top: -13em;
+  left: -1.5em;
+  display: inline-block;
+}
+
+.photo {
+  border-style: outset;
+  border-radius: 1em 1em 1em 1em;
+  box-shadow: 6px 6px 5px 1px grey;
+}
+
+.description_photo {
+  font-family: cac_champagneregular;
+  font-size: 1.5em;
+  font-style: italic;
+  float: right;
+  margin-top: 1.9em;
+  margin-left: .9em;
+  text-shadow: .15em .15em .5em grey;
+}
+
+.experience_master {
+  position: relative;
+  top: 4em;
+  left: -23em;
+  display: inline-block;
+}
+
+.experience_titre {
+  font-size: 1em;
+  position: relative;
+  top: 2em;
+  text-shadow: .15em .15em .4em grey;
+}
+
+.exp_content {
+  font-size: 1.7em;
+  line-height: 1.5;
+}
+
+.competences_master {
+  position: relative;
+  top: 4em;
+  left: 1em;
+  display: inline-block;
+}
+
+.competences_titre {
+  font-size: 1em;
+  position: relative;
+  top: 2em;
+  left: 5em;
+  text-shadow: .15em .15em .4em grey;
+}
+
+.compe_content {
+  font-size: 1.5em;
+  line-height: 1.7;
+}
+
+.formation_master {
+  position: relative;
+  top: 15em;
+  left: -61.1em;
+  display: inline-block;
+}
+
+.formation_titre {
+  font-size: 1em;
+  position: relative;
+  top: 2em;
+  text-shadow: .15em .15em .4em grey;
+}
+
+.formation_content {
+  font-size: 1.7em;
+}
+
+.contact_master {
+  position: relative;
+  top: 15em;
+  left: 1em;
+  display: inline-block;
+}
+
+.contact {
+  font-size: 2.4em;
+  position: relative;
+  top: 1em;
+  display: inline-block;
+  text-shadow: .15em .15em .25em #3b7a8f;
+}
+
+.contact_content {
+  font-size: 1.5em;
+  font-weight: 0;
+}
+
+.reseaux_sociaux {
+  position: relative;
+  top: -1.8em;
+  left: 9em;
+}
+
+.mention {
+  position: relative;
+  top: 3em;
+  right: -95em;
+}
+
+a {
+  color: black;
+}
